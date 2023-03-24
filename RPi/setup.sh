@@ -5,6 +5,7 @@
 echo "Starting setup..."
 # config
 echo "Configuring RPi..."
+cp /boot/config.txt /home/pi/Desktop/RPi-Imaging-and-Backup-Tools/RPi/System_Files/Boot
 cp ./System_Files/Taskbar_Panels/config /home/pi/.config/lxpanel/LXDE-pi
 lxpanelctl restart
 # sudo raspi-config nonint do_update

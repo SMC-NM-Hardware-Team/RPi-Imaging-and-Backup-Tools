@@ -1,6 +1,4 @@
 #!/bin/bash
-# chmod u+x deploy.sh
-
 
 echo "Starting setup..."
 # config
@@ -75,4 +73,3 @@ echo "Cloning SMC-NM-Hardware-Team/SMC-NM-23-Hardware.git"
 git clone https://github.com/SMC-NM-Hardware-Team/SMC-NM-23-Hardware.git
 cd ~
 echo "Setup is complete."
-$SHELL

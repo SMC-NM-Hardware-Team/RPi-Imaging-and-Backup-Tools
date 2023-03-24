@@ -13,4 +13,3 @@ cdt=$(date +"%Y-%m-%d_%H-%M")
 cd ~/Desktop
 hdiutil create RPi_BUILD_$cdt -srcdevice /dev/disk$diskNum -format UDZO
 cd ~
-$SHELL

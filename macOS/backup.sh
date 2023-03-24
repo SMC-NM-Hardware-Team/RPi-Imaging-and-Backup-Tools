@@ -10,6 +10,6 @@ read diskNum
 
 # Create and autoname image
 cdt=$(date +"%Y-%m-%d_%H-%M")
-cd ~/Desktop
-hdiutil create RPi_BUILD_$cdt -srcdevice /dev/disk$diskNum -format UDZO
+cd ~/Downloads
+hdiutil create RPi_BUILD_${cdt}_compressed -srcdevice /dev/disk$diskNum -format UDZO
 cd ~

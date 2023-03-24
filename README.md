@@ -3,8 +3,8 @@
 To set up a newly imaged Raspberry Pi,
 run the following commands in the RPi terminal:
 
-chmod u+x setup.sh reset_taskbar.sh
-./setup.sh
+```chmod u+x setup.sh```
+```./setup.sh```
 
 
 
@@ -14,8 +14,8 @@ To back up a Raspberry Pi's microSD card to an image file,
 2. Start a terminal session at ./macOS/
 3. Run the following terminal commands. Respond to script prompts.
 
-chmod u+x backup.sh
-./backup.sh
+```chmod u+x backup.sh```
+```./backup.sh```
 
 4. You now have a bootable image on your desktop. It should have the format "RPi_BUILD_YYYY-MM-DD_HH-MM"
 

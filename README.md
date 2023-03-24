@@ -19,7 +19,7 @@ To back up a Raspberry Pi's microSD card to an image file,
 
 ```./backup.sh```
 
-4. You now have a bootable image in your downloads folder. It should have the format "RPi_BUILD_YYYY-MM-DD_HH-MM_compressed.dmg"
+4. You now have a bootable image in your downloads folder. It should have the format "[OS]_Build_YYYY-MM-DD_HH-MM_compressed.dmg"
 
 
 To flash an image to your RPi, see: https://learn.adafruit.com/adafruit-raspberry-pi-lesson-1-preparing-and-sd-card-for-your-raspberry-pi/making-an-sd-card-using-a-mac

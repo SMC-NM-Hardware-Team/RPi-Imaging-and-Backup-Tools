@@ -8,8 +8,8 @@ run the following commands in the RPi terminal:
 ```./setup.sh```
 
 # Backup
+1. Connect the microSD card to your computer using an adapter.
 ## macOS
-1. Connect the microSD card to your Mac using an adapter.
 2. Start a terminal session inside the "macOS" folder.
 3. Run the following terminal commands. Respond to script prompts.
 
@@ -20,8 +20,8 @@ run the following commands in the RPi terminal:
 4. You now have a bootable image in your "Downloads" folder. It should have the format "[OS]_Build_YYYY-MM-DD_HH-MM_compressed.dmg"
 
 ## Windows
-1. Download Win32 Disk Imager (not in this repository)
-2. Follow a guide. e.g. https://raspberrytips.com/create-image-sd-card/
+2. Download Win32 Disk Imager (not in this repository)
+3. Follow a guide. e.g. https://raspberrytips.com/create-image-sd-card/
 
 # Restore
 Windows: https://learn.adafruit.com/adafruit-raspberry-pi-lesson-1-preparing-and-sd-card-for-your-raspberry-pi/making-an-sd-card-using-a-windows-vista-slash-7

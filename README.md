@@ -1,3 +1,5 @@
+# Requirements
+1. Local copy of repository
 
 # Install
 To set up a fresh install (not to be confused with image restore) on the Raspberry Pi,
